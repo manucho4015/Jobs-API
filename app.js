@@ -16,7 +16,6 @@ const express = require("express");
 const app = express();
 
 // connectDB
-
 const connectDB = require("./db/connect");
 
 const authenticateUser = require("./middleware/authentication");
